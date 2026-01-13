@@ -1,16 +1,35 @@
-# python-security-practice
-Academic Python projects focused on programming fundamentals, modularization and security-oriented logic, developed during cybersecurity studies
+# Secure Password Management System
+
+Academic cybersecurity project developed as part of the Cybersecurity Technologist program (UTU).
 
 ## Description
-Scripts developed to practice functions, control structures, recursion and data handling,
-with an applied approach to cybersecurity topics.
+Secure password management system implemented using Python and MySQL. The system allows
+user registration, password validation based on security policies, secure storage using
+SHA-256 hashing with salt, and relational database management.
 
-## Topics Covered
-- Functions and modularization
-- Control structures
-- Lists and data handling
-- Input validation
-- Secure coding basics
+## Features
+- User registration and credential management
+- Password strength validation
+- Password policy enforcement
+- Secure password storage using SHA-256 hashing with salt
+- Password history tracking
+- Secure password generation
+- Console-based application
+
+## Database Design
+- Entity-Relationship model
+- Relational schema in Third Normal Form (3NF)
+- Referential integrity using foreign keys
 
 ## Technologies
 - Python
+- MySQL
+- SQL (DDL, DML, CRUD)
+- Hashlib (SHA-256)
+
+## Cybersecurity Concepts
+- Authentication
+- Secure credential storage
+- Password policies
+- Data integrity
+- Defense against weak passwords
